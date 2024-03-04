@@ -5,7 +5,7 @@ def get_sample_rate_wav(audio_file_path):
         sample_rate=int.from_bytes(sample_rate_bytes,byteorder='little')
     return sample_rate
 
-audio_file_path='WhatsApp Audio 2024-03-04 at 11.27.40_69e1065f.mp3'
+audio_file_path='WhatsApp Audio 2024-03-04 at 11.27.40_69e1065f.wav'
 
 sample_rate=get_sample_rate_wav(audio_file_path)
 
