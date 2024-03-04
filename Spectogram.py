@@ -2,7 +2,7 @@ import librosa.display
 import matplotlib.pyplot as plt
 import numpy as np
 
-audio_file = '/content/WhatsApp Audio 2024-03-04 at 11.27.40_69e1065f.mp3'  # Replace with the actual path to your audio file
+audio_file = '/content/WhatsApp Audio 2024-03-04 at 11.27.40_69e1065f.mp3' 
 
 # Load the audio file using librosa
 audio_data, sample_rate = librosa.load(audio_file, sr=None)
