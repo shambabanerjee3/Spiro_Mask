@@ -5,7 +5,7 @@ from scipy.signal import butter, filtfilt
 
 import librosa
 
-audio_file_path = 'WhatsApp Audio 2024-03-04 at 11.27.40_69e1065f.wav'
+audio_file_path = 'Breathing_data.wav'
 audio_data, sample_rate = librosa.load(audio_file_path, sr=None)
 
 
